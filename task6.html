@@ -1,0 +1,135 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Task 6</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <header>
+    <h1>Welcome to My Depi Assignment 1 - Task 6</h1>
+    <form role="search" aria-label="Site search">
+      <label for="search">Search</label>
+      <input id="search" name="search" type="search" placeholder="Search..." />
+      <button type="submit">Search</button>
+    </form>
+  </header>
+
+
+  <nav aria-label="Sidebar">
+    <h3>Main</h3>
+    <ul>
+      <li><a href="#overview">Overview</a></li>
+      <li><a href="#users">Users</a></li>
+    </ul>
+
+    <h3>Reports</h3>
+    <ul>
+      <li><a href="#reports">Reports</a></li>
+      <li><a href="#transactions">Transactions</a></li>
+    </ul>
+
+    <h3>Settings</h3>
+    <ul>
+      <li><a href="#settings">Settings</a></li>
+      <li><a href="#profile">Profile</a></li>
+    </ul>
+
+    <h3>Support</h3>
+      <ul>
+          <li><a href="#help">Help Center</a></li>
+          <li><a href="#contact">Contact Support</a></li>
+          <li><a href="#documentation">Documentation</a></li>
+      </ul>
+  </nav>
+
+  
+  <main id="overview">
+    <section aria-labelledby="cards-title">
+      <h2 id="cards-title">Statistics</h2>
+
+      <article>
+        <h3>Total Sales</h3>
+        <p>$10,000</p>
+        <p><time datetime="2025-12-18">Dec 18, 2025</time></p>
+      </article>
+
+      <article>
+        <h3>New Users</h3>
+        <p>120</p>
+        <p><time datetime="2025-12-18">Dec 18, 2025</time></p>
+      </article>
+    </section>
+
+    <aside aria-labelledby="notifications-title">
+      <h2 id="notifications-title">Notifications</h2>
+      <p>You have 3 new alerts:</p>
+      <ul>
+        <li class="notification">
+          <h4>New Order</h4>
+            <p>You have a new order from John Smith</p>
+            <time datetime="2025-04-15T10:24">10:30 AM</time>
+        </li>
+        <li class="notification">
+          <h4>New User Signup</h4>
+            <p>New user signup: Sarah K.</p>
+            <time datetime="2025-04-15T10:24">10:30 AM</time>
+        </li>
+        <li class="notification">
+          <h4>Weekly Report Ready</h4>
+            <p>Weekly report is ready</p>
+            <time datetime="2025-04-15T10:24">10:30 AM</time>
+        </li>
+      </ul>
+    </aside>
+
+    <section id="transactions" aria-labelledby="transactions-title">
+      <h2 id="transactions-title">Latest Transactions</h2>
+      <fieldset>
+        <table>
+            <legend>Recent transaction activity</legend>
+          <thead>
+            <tr>
+              <th scope="col">ID</th>
+              <th scope="col">Amount</th>
+              <th scope="col">Status</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>$200</td>
+              <td>Completed</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>$75</td>
+              <td>Pending</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>$1,250</td>
+              <td>Failed</td>
+            </tr>
+          </tbody>
+        </table>
+      </fieldset>
+    </section>
+
+  </main>
+
+
+  <footer>
+        <p>&copy; 2025 Dashboard. All rights reserved.</p>
+        <nav aria-label="Footer Navigation">
+            <ul>
+                <li><a href="#privacy">Privacy Policy</a></li>
+                <li><a href="#terms">Terms of Service</a></li>
+                <li><a href="#support">Support</a></li>
+            </ul>
+        </nav>
+    </footer>
+
+</body>
+</html>
