@@ -31,6 +31,7 @@
               name="email"
               required
               pattern="^[^@\s]+@[^@\s]+\.[^@\s]+$"
+              aria-required="true"
               aria-describedby="emailHelp"
               aria-invalid="false"
             >
@@ -46,8 +47,10 @@
               id="phone" 
               name="phone"
               required
-              pattern="^01[0-9]{9}$"
-              aria-describedby="phoneHelp"
+              pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+              aria-required="true"
+              aria-describedby="phone-help"
+              aria-invalid="false"
             >
             <small id="phoneHelp">Enter your phone number.</small>
             
@@ -56,15 +59,17 @@
 
         <div>
             <label for="dob">Date of birth:</label>
-            <input type="date" id="dob" name="dob" required>
-
+            <input type="date" id="dob" name="dob" 
+            required
+            aria-required="true"
+            aria-invalid="false"
+            >
             <br><br>
         </div>
 
         <div>  
             <label for="message">Message:</label>
-            <textarea id="message" name="message" required></textarea>
-            
+            <textarea id="message" name="message"></textarea>
             <br><br> 
         </div>
     
